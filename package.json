@@ -2,9 +2,10 @@
   "name": "managemyemployee",
   "version": "1.0.0",
   "description": "App to manage and track your employees",
-  "main": "employeeTracker.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/stbuiemory/ManageMyEmployee#readme",
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.5",
     "mysql2": "^3.5.2"
   }
 }
